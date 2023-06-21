@@ -1,0 +1,235 @@
+* {
+    /* background-color: black; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+#logo {
+    height: 80px;
+
+
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+#logo>img {
+    margin-left: 20px;
+    height: 70px;
+    border-radius: 55px;
+}
+
+
+
+#navbar>ul {
+    display: flex;
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgb(250, 95, 95);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}
+
+#navbar>ul>li {
+    list-style: none;
+}
+
+#navbar>ul>li>a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 17px;
+    color: rgb(11, 33, 235);
+    border-radius: 30px;
+    /* color: rgb(246, 250, 246); */
+}
+
+#navbar>ul>li>a:hover {
+    color: rgb(15, 14, 14);
+    background-color: rgb(245, 238, 238);
+
+
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 300px;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+
+}
+
+#home::before {
+    content: "";
+    background: url(https://images8.alphacoders.com/385/385196.jpg)no-repeat center center/cover;
+    background-repeat: none;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+
+    /* opacity: 0.7; */
+}
+
+#vish {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+
+}
+
+#home h1 {
+    color: rgb(201, 184, 2);
+    border-radius: 6px;
+    width: 120px;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+#home p {
+    color: rgb(84, 10, 244);
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+}
+
+.btn {
+    align-items: center;
+    padding: 4px;
+    width: 70px;
+    margin: 7px;
+    background-color: rgb(226, 15, 71);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+
+#services {
+    margin-top: 45px;
+    display: flex;
+    margin: 34px;
+    /* background-color: blueviolet; */
+}
+
+#services .box {
+    padding: 34px;
+    margin: 8px;
+    border-radius: 23px;
+    border: 2px solid rgb(202, 92, 92);
+    box-shadow:rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;;
+    background-color: rgb(237, 234, 242);
+}
+
+#services>.box>img {
+    margin: auto;
+    display: block;
+}
+
+.h-primary {
+    font-size: 3.4rem;
+    padding: 12px;
+    font-family: cursive;
+}
+
+.h-secondary {
+    font-size: 2.2rem;
+    padding: 12px;
+}
+
+#client-section {
+    /* height: 394px; */
+    position: relative;
+
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url(https://wallpapercave.com/wp/wp8947204.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 96%;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.client-item {
+    padding: 27px;
+}
+
+#client-item>img {
+    height: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contact {
+    position: relative;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background: url(https://imagefinder.co/storage/w1000/images/2019/01/picjumbo_man-working-on-laptop-2210x1473.jpg)no-repeat center center/cover;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding:0.5rem;
+    border-radius: 6px;
+}
+#contact-box > form{
+    width: 40%;
+}
+#contact-box > label{
+    font-size: 1.3rem;
+
+}
+
+footer {
+    background-color: rgb(18, 18, 18);
+    color: white;
+    padding: 9px;
+    text-align: center;
+    position: sticky;
+}
